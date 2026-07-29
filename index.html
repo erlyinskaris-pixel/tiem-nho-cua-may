@@ -1,0 +1,1759 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tiệm nhỏ của Mây ☁️</title>
+
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Nunito:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap');
+
+
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+
+}
+
+
+
+:root{
+
+--mint:#71aaa0;
+--pink:#d989a5;
+--cream:#fffaf4;
+--text:#555;
+
+}
+
+
+
+body{
+
+font-family:"Nunito",sans-serif;
+
+background:var(--cream);
+
+color:var(--text);
+
+line-height:1.8;
+
+}
+
+
+
+
+h1,h2,h3{
+
+font-family:"Playfair Display",serif;
+
+}
+
+
+
+
+a{
+
+text-decoration:none;
+
+color:inherit;
+
+}
+
+
+
+
+
+
+
+/* ICON TRANG TRI */
+
+
+.decor{
+
+position:fixed;
+
+z-index:-1;
+
+opacity:.35;
+
+font-size:32px;
+
+pointer-events:none;
+
+}
+
+
+.cloud{
+
+top:15%;
+
+left:7%;
+
+}
+
+
+.star{
+
+top:30%;
+
+right:8%;
+
+}
+
+
+.flower{
+
+top:55%;
+
+left:5%;
+
+}
+
+
+.leaf{
+
+bottom:20%;
+
+right:7%;
+
+}
+
+
+.moon{
+
+bottom:10%;
+
+left:10%;
+
+}
+
+
+
+
+
+
+
+
+
+/* HEADER */
+
+
+header{
+
+position:fixed;
+
+top:0;
+
+width:100%;
+
+z-index:1000;
+
+background:rgba(255,255,255,.88);
+
+backdrop-filter:blur(12px);
+
+box-shadow:0 5px 20px rgba(0,0,0,.05);
+
+}
+
+
+
+nav{
+
+max-width:1200px;
+
+margin:auto;
+
+padding:18px 30px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+}
+
+
+
+.logo{
+
+font-size:25px;
+
+font-weight:800;
+
+color:var(--mint);
+
+}
+
+
+
+
+.menu{
+
+display:flex;
+
+gap:22px;
+
+list-style:none;
+
+font-size:15px;
+
+}
+
+
+
+
+.menu a:hover{
+
+color:var(--pink);
+
+}
+
+
+
+
+
+
+
+
+
+/* HERO */
+
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:120px 20px 60px;
+
+text-align:center;
+
+background:
+
+linear-gradient(
+
+180deg,
+
+#e8f5f2,
+
+#fffaf4
+
+);
+
+}
+
+
+
+
+.hero-box{
+
+background:white;
+
+padding:65px 55px;
+
+max-width:780px;
+
+border-radius:45px;
+
+box-shadow:0 20px 60px rgba(90,150,140,.18);
+
+}
+
+
+
+
+.hero h1{
+
+font-size:58px;
+
+color:var(--mint);
+
+line-height:1.3;
+
+}
+
+
+
+
+.hero p{
+
+font-size:18px;
+
+margin:25px 0;
+
+}
+
+
+
+
+.signature{
+
+font-family:"Dancing Script",cursive;
+
+font-size:32px;
+
+color:var(--pink);
+
+display:block;
+
+margin-top:20px;
+
+}
+
+
+
+
+
+
+
+.btn{
+
+display:inline-block;
+
+padding:12px 32px;
+
+background:var(--pink);
+
+color:white;
+
+border-radius:30px;
+
+transition:.3s;
+
+}
+
+
+
+.btn:hover{
+
+transform:translateY(-5px);
+
+}
+
+
+
+
+
+
+
+/* SECTION */
+
+
+section{
+
+padding:90px 8%;
+
+}
+
+
+
+
+.title{
+
+text-align:center;
+
+font-size:40px;
+
+color:var(--mint);
+
+margin-bottom:55px;
+
+}
+
+
+
+.title::after{
+
+content:"";
+
+display:block;
+
+width:75px;
+
+height:3px;
+
+background:var(--pink);
+
+margin:15px auto 0;
+
+border-radius:10px;
+
+}
+
+
+
+
+
+
+/* CARD */
+
+
+.card-container{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:30px;
+
+}
+
+
+
+
+.card{
+
+background:white;
+
+padding:35px;
+
+border-radius:35px;
+
+box-shadow:0 10px 30px rgba(0,0,0,.07);
+
+display:flex;
+
+flex-direction:column;
+
+min-height:330px;
+
+}
+
+
+
+
+.card h3{
+
+font-size:25px;
+
+color:var(--pink);
+
+text-align:center;
+
+margin-bottom:20px;
+
+}
+
+
+
+
+.card p{
+
+font-size:17px;
+
+line-height:1.8;
+
+text-align:left;
+
+flex:1;
+
+}
+
+
+
+.card .btn{
+
+align-self:center;
+
+margin-top:25px;
+
+}
+
+
+
+
+
+
+
+/* MESSAGE */
+
+
+.message{
+
+background:white;
+
+max-width:750px;
+
+margin:auto;
+
+padding:50px;
+
+border-radius:40px;
+
+text-align:center;
+
+font-family:"Playfair Display",serif;
+
+font-size:30px;
+
+color:var(--pink);
+
+box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+
+<!-- ICON TRANG TRI -->
+
+
+<div class="decor cloud">☁️</div>
+
+<div class="decor star">✨</div>
+
+<div class="decor flower">🌸</div>
+
+<div class="decor leaf">🌿</div>
+
+<div class="decor moon">🌙</div>
+
+
+
+
+
+
+
+<!-- HEADER -->
+
+
+<header>
+
+
+<nav>
+
+
+
+<div class="logo">
+
+☁️ Tiệm nhỏ của Mây ☁️
+
+</div>
+
+
+
+
+
+<ul class="menu">
+
+
+<li>
+<a href="#home">
+Trang chủ
+</a>
+</li>
+
+
+
+<li>
+<a href="#study">
+Góc học tập nhỏ
+</a>
+</li>
+
+
+
+<li>
+<a href="#book">
+Kệ sách của Mây
+</a>
+</li>
+
+
+
+<li>
+<a href="#playlist">
+Playlist
+</a>
+</li>
+
+
+
+<li>
+<a href="#letter">
+Góc thư
+</a>
+</li>
+
+
+
+<li>
+<a href="#shop">
+Chiếc giỏ nhỏ
+</a>
+</li>
+
+
+
+<li>
+<a href="#blog">
+Blog
+</a>
+</li>
+
+
+
+</ul>
+
+
+</nav>
+
+
+</header>
+
+
+
+
+
+
+
+
+
+<!-- HERO -->
+
+
+<section class="hero" id="home">
+
+
+<div class="hero-box">
+
+
+<h1>
+
+☁️ Tiệm nhỏ của Mây ☁️
+
+</h1>
+
+
+
+<p>
+
+Một góc nhỏ trên internet dành cho những ai yêu thích học tập, đọc sách, khám phá những điều xinh đẹp và tìm một chút bình yên giữa những ngày bận rộn.
+
+</p>
+
+
+
+
+<a href="#study" class="btn">
+
+Ghé thăm tiệm
+
+</a>
+
+
+
+
+<span class="signature">
+
+♡ Made by Mây ♡
+
+</span>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- LOI NHAN -->
+
+
+<section>
+
+
+<h2 class="title">
+
+Lời nhắn hôm nay
+
+</h2>
+
+
+
+<div class="message" id="daily">
+
+
+"Mỗi ngày cố gắng một chút, bạn sẽ thấy mình đã đi rất xa."
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- HOC TAP -->
+
+
+<section id="study">
+
+
+<h2 class="title">
+
+Góc học tập nhỏ
+
+</h2>
+
+
+
+
+<div class="card-container">
+
+
+
+<div class="card">
+
+
+<h3>
+
+Tips học tập
+
+</h3>
+
+
+<p>
+
+Những phương pháp học tập hiệu quả, cách ghi chú, lập kế hoạch, ghi nhớ kiến thức và xây dựng thói quen học tập tốt hơn mỗi ngày.
+
+</p>
+
+
+
+<a href="#" class="btn">
+
+Khám phá
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+
+Tài liệu miễn phí
+
+</h3>
+
+
+<p>
+
+Tổng hợp những nguồn tài liệu học tập miễn phí, website hữu ích và công cụ hỗ trợ việc học.
+
+</p>
+
+
+
+<a href="#" class="btn">
+
+Khám phá
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+
+Góc truyền cảm hứng
+
+</h3>
+
+
+<p>
+
+Những câu chuyện về các bạn trẻ chăm chỉ, những tấm gương học tập đáng ngưỡng mộ và hành trình cố gắng để đạt được mục tiêu.
+
+</p>
+
+
+
+<a href="#" class="btn">
+
+Khám phá
+
+</a>
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- SACH -->
+
+
+<section id="book">
+
+
+<h2 class="title">
+
+Kệ sách của Mây
+
+</h2>
+
+
+
+
+<div class="card-container">
+
+
+
+<div class="card">
+
+
+<h3>
+
+Tiểu thuyết hay
+
+</h3>
+
+
+<p>
+
+Những cuốn tiểu thuyết, truyện dài và câu chuyện giàu cảm xúc mà Mây muốn giới thiệu đến bạn.
+
+</p>
+
+
+
+<a href="#" class="btn">
+
+Khám phá
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+
+Sách chữa lành
+
+</h3>
+
+
+<p>
+
+Những cuốn sách giúp bạn hiểu bản thân hơn, tìm lại sự bình yên và nhìn cuộc sống theo một góc nhìn nhẹ nhàng hơn.
+
+</p>
+
+
+
+<a href="#" class="btn">
+
+Khám phá
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+
+Trích dẫn & Tản văn
+
+</h3>
+
+
+<p>
+
+Những câu chữ đẹp, đoạn văn nhỏ và những suy nghĩ giản dị có thể khiến một ngày trở nên đặc biệt hơn.
+
+</p>
+
+
+
+<a href="#" class="btn">
+
+Khám phá
+
+</a>
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- PLAYLIST -->
+
+
+<section id="playlist">
+
+
+<h2 class="title">
+
+Playlist của Mây
+
+</h2>
+
+
+
+
+<div class="card-container">
+
+
+
+<div class="card">
+
+
+<h3>
+
+Study with Mây
+
+</h3>
+
+
+<p>
+
+Những bản nhạc nhẹ nhàng dành cho lúc học tập, đọc sách hoặc tập trung làm việc.
+
+</p>
+
+
+
+<a href="#" class="btn">
+
+Khám phá
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+
+Rainy Day
+
+</h3>
+
+
+<p>
+
+Những giai điệu dành cho những ngày mưa, những buổi chiều yên tĩnh và những khoảng thời gian nghỉ ngơi.
+
+</p>
+
+
+
+<a href="#" class="btn">
+
+Khám phá
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+
+Midnight Thoughts
+
+</h3>
+
+
+<p>
+
+Một góc âm nhạc cho những đêm suy nghĩ nhiều hoặc những lúc muốn tìm chút bình yên.
+
+</p>
+
+
+
+<a href="#" class="btn">
+
+Khám phá
+
+</a>
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+<!-- GÓC THƯ -->
+
+
+<section id="letter">
+
+
+<h2 class="title">
+
+Góc thư gửi Mây
+
+</h2>
+
+
+
+
+<div class="message">
+
+Có những câu chuyện chúng ta giữ trong lòng rất lâu vì chưa tìm được nơi để chia sẻ. Góc nhỏ này dành cho những lời nhắn, những tâm sự, những kỷ niệm hoặc đơn giản là một điều bạn muốn gửi đi. Biết đâu câu chuyện của bạn có thể trở thành sự đồng cảm và một chút ấm áp dành cho ai đó đang cần.
+
+<br><br>
+
+
+<a href="#" class="btn">
+
+Viết một lá thư
+
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- CHIEC GIO -->
+
+
+<section id="shop">
+
+
+<h2 class="title">
+
+Chiếc giỏ nhỏ của Mây
+
+</h2>
+
+
+
+
+
+<div class="card-container">
+
+
+
+<div class="card">
+
+
+<h3>
+
+Đồ dùng học tập
+
+</h3>
+
+
+<p>
+
+Những cuốn sổ, cây bút, giấy note và những món đồ nhỏ giúp góc học tập trở nên dễ chịu hơn.
+
+</p>
+
+
+<a href="#" class="btn">
+
+Khám phá
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+
+Góc phòng nhỏ
+
+</h3>
+
+
+<p>
+
+Những món đồ trang trí, phụ kiện nhỏ giúp không gian học tập và nghỉ ngơi trở nên ấm áp hơn.
+
+</p>
+
+
+<a href="#" class="btn">
+
+Khám phá
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+
+Món đồ Mây dùng
+
+</h3>
+
+
+<p>
+
+Những sản phẩm Mây yêu thích, từng sử dụng hoặc cảm thấy hữu ích trong cuộc sống hằng ngày.
+
+</p>
+
+
+<a href="#" class="btn">
+
+Khám phá
+
+</a>
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- BLOG -->
+
+
+<section id="blog">
+
+
+<h2 class="title">
+
+Blog của Mây
+
+</h2>
+
+
+
+
+<div class="card-container">
+
+
+
+<div class="card">
+
+
+<h3>
+
+Câu chuyện của Mây
+
+</h3>
+
+
+<p>
+
+Những điều nhỏ bé trong cuộc sống, những trải nghiệm và khoảnh khắc mà Mây muốn lưu giữ.
+
+</p>
+
+
+<a href="#" class="btn">
+
+Khám phá
+
+</a>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="card">
+
+
+<h3>
+
+Điều Mây học được
+
+</h3>
+
+
+<p>
+
+Những bài viết về học tập, cuộc sống và những suy nghĩ nhỏ trên hành trình trưởng thành.
+
+</p>
+
+
+<a href="#" class="btn">
+
+Khám phá
+
+</a>
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+
+<footer>
+
+
+<style>
+
+
+footer{
+
+background:#dff0ec;
+
+padding:60px 8% 30px;
+
+}
+
+
+
+.footer-grid{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:35px;
+
+}
+
+
+
+footer h3{
+
+color:#71aaa0;
+
+font-size:22px;
+
+margin-bottom:15px;
+
+}
+
+
+
+footer p{
+
+font-size:16px;
+
+}
+
+
+
+footer a:hover{
+
+color:#d989a5;
+
+}
+
+
+
+.copy{
+
+text-align:center;
+
+margin-top:40px;
+
+}
+
+
+
+@media(max-width:900px){
+
+
+.footer-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+
+}
+
+
+
+@media(max-width:600px){
+
+
+.footer-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+}
+
+
+
+</style>
+
+
+
+
+
+
+
+
+<div class="footer-grid">
+
+
+
+
+
+
+<div>
+
+
+<h3>
+
+☁️ Tiệm nhỏ của Mây
+
+</h3>
+
+
+<p>
+
+Một góc nhỏ trên internet để học tập, đọc sách, khám phá những điều xinh đẹp và lưu giữ những khoảnh khắc đáng nhớ.
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div>
+
+
+<h3>
+
+Về Mây
+
+</h3>
+
+
+
+<p>
+
+
+<a href="about.html">
+
+Mây là ai?
+
+</a>
+
+
+<br>
+
+
+<a href="#letter">
+
+Góc thư gửi Mây
+
+</a>
+
+
+<br>
+
+
+<a href="#">
+
+Liên hệ
+
+</a>
+
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div>
+
+
+<h3>
+
+Khám phá
+
+</h3>
+
+
+
+<p>
+
+
+<a href="#study">
+
+Góc học tập nhỏ
+
+</a>
+
+
+<br>
+
+
+<a href="#book">
+
+Kệ sách của Mây
+
+</a>
+
+
+<br>
+
+
+<a href="#playlist">
+
+Playlist của Mây
+
+</a>
+
+
+<br>
+
+
+<a href="#blog">
+
+Blog của Mây
+
+</a>
+
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div>
+
+
+<h3>
+
+Kết nối
+
+</h3>
+
+
+<p>
+
+
+<a href="#">
+
+Facebook
+
+</a>
+
+
+<br>
+
+
+<a href="#">
+
+TikTok
+
+</a>
+
+
+<br>
+
+
+<a href="#">
+
+Shopee
+
+</a>
+
+
+<br>
+
+
+<a href="#">
+
+Email
+
+</a>
+
+
+</p>
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="copy">
+
+
+© 2026 Tiệm nhỏ của Mây ☁️
+
+
+<br>
+
+
+Made with ♡ by Mây
+
+
+</div>
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+<script>
+
+
+const messages = [
+
+
+"Mỗi ngày cố gắng một chút, bạn sẽ thấy mình đã đi rất xa.",
+
+
+"Không cần vội vàng, mỗi bước nhỏ đều có ý nghĩa riêng.",
+
+
+"Một trang sách, một ý tưởng mới, một ngày tốt hơn.",
+
+
+"Hãy dành thời gian cho những điều khiến bạn bình yên.",
+
+
+"Bạn đang cố gắng, và điều đó đã rất đáng quý rồi."
+
+];
+
+
+const today = new Date().getDate();
+
+
+document.getElementById("daily").innerHTML =
+
+"\"" + messages[today % messages.length] + "\"";
+
+
+</script>
+
+
+
+</body>
+
+</html>
