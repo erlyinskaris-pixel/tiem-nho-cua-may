@@ -1722,32 +1722,33 @@ Made with ♡ by Mây
 <script>
 
 
-const messages = [
+fetch("data/messages.json")
+.then(response => response.json())
+.then(messages => {
 
+    const now = new Date();
 
-"Mỗi ngày cố gắng một chút, bạn sẽ thấy mình đã đi rất xa.",
+    const start = new Date(now.getFullYear(), 0, 0);
 
+    const diff = now - start;
 
-"Không cần vội vàng, mỗi bước nhỏ đều có ý nghĩa riêng.",
+    const oneDay = 1000 * 60 * 60 * 24;
 
+    const dayOfYear = Math.floor(diff / oneDay);
 
-"Một trang sách, một ý tưởng mới, một ngày tốt hơn.",
+    const message = messages[(dayOfYear - 1) % messages.length];
 
+    document.getElementById("daily").textContent = message.text;
 
-"Hãy dành thời gian cho những điều khiến bạn bình yên.",
+})
+.catch(error => {
 
+    console.error(error);
 
-"Bạn đang cố gắng, và điều đó đã rất đáng quý rồi."
+    document.getElementById("daily").textContent =
+    "Chúc bạn có một ngày thật bình yên. 🤍";
 
-];
-
-
-const today = new Date().getDate();
-
-
-document.getElementById("daily").innerHTML =
-
-"\"" + messages[today % messages.length] + "\"";
+});
 
 
 </script>
