@@ -1,0 +1,514 @@
+[
+  {
+    "id": 1,
+    "text": "Đừng ngại nhờ sự giúp đỡ khi bạn cảm thấy không an toàn. Tìm đến những người thân thiết đáng tin cậy hoặc cơ quan chức năng là lựa chọn tốt nhất."
+  },
+  {
+    "id": 2,
+    "text": "Có những ngày bạn thấy mình chưa đủ tốt, nhưng hãy nhớ bạn đã từng vượt qua rất nhiều điều tưởng như không thể. Đừng vội trách bản thân, hãy cho mình thời gian trưởng thành."
+  },
+  {
+    "id": 3,
+    "text": "Học cách lắng nghe trực giác của mình. Đôi khi cảm giác không thoải mái là lời nhắc để bạn chú ý hơn đến một điều gì đó."
+  },
+  {
+    "id": 4,
+    "text": "Một mối quan hệ tốt là nơi bạn được là chính mình, được yêu thương và lắng nghe, không phải nơi bạn phải đánh mất bản thân để giữ một người ở lại."
+  },
+  {
+    "id": 5,
+    "text": "Hãy kiểm tra lại tủ thuốc của gia đình. Bỏ đi những loại thuốc đã hết hạn và sắp xếp lại để có thể tìm thấy khi cần."
+  },
+  {
+    "id": 6,
+    "text": "Đừng để cuộc sống chỉ xoay quanh nỗi buồn. Hãy dành thời gian khám phá những điều mới, vì thế giới này còn rất nhiều điều đẹp đang chờ bạn."
+  },
+  {
+    "id": 7,
+    "text": "Đừng bỏ qua những giấc mơ của mình. Đôi khi chúng là cách tâm trí nhắc bạn về những cảm xúc, ký ức hoặc điều bạn vẫn đang giữ trong lòng."
+  },
+  {
+    "id": 8,
+    "text": "Gia đình không ở bên bạn mãi mãi. Hãy trân trọng những bữa cơm, những cuộc trò chuyện và những khoảnh khắc bình thường khi còn có thể."
+  },
+  {
+    "id": 9,
+    "text": "Đừng dành quá nhiều thời gian nhìn vào cuộc sống của người khác. Hãy tập trung xây dựng phiên bản tốt hơn của chính mình."
+  },
+  {
+    "id": 10,
+    "text": "Có lúc bạn sẽ thấy mình đi quá chậm, nhưng chỉ cần không bỏ cuộc, bạn vẫn đang tiến về phía trước."
+  },
+  {
+    "id": 11,
+    "text": "Đừng trao cả tương lai của mình cho một mối quan hệ nào đó. Hãy giữ lại ước mơ, con đường và cuộc đời thuộc về riêng bạn."
+  },
+  {
+    "id": 12,
+    "text": "Hãy kiểm tra lại những đôi giày bạn ít sử dụng. Có thể đã đến lúc sửa chữa, giặt sạch hoặc dành chúng cho một người cần hơn."
+  },
+  {
+    "id": 13,
+    "text": "Ngày nhỏ, cha mẹ đưa bạn khám phá thế giới. Khi trưởng thành, hãy cố gắng để đưa họ nhìn thấy một thế giới rộng lớn hơn."
+  },
+  {
+    "id": 14,
+    "text": "Đừng chỉ chăm lo cho tương lai mà quên chăm sóc bản thân hôm nay. Sức khỏe là nền tảng để bạn theo đuổi mọi điều mình mong muốn."
+  },
+  {
+    "id": 15,
+    "text": "Tiền không phải tất cả, nhưng biết kiếm tiền và quản lý tiền sẽ giúp bạn có thêm nhiều lựa chọn hơn trong cuộc sống."
+  },
+  {
+    "id": 16,
+    "text": "Đừng bỏ qua những dấu hiệu khiến bạn cảm thấy bất an. Cẩn thận một chút không bao giờ là thừa."
+  },
+  {
+    "id": 17,
+    "text": "Trước khi mua thêm đồ mới, hãy nhìn lại những gì bạn đang có. Biết trân trọng và sử dụng tốt những thứ hiện tại cũng là một thói quen tốt."
+  },
+  {
+    "id": 18,
+    "text": "Hãy cẩn thận khi chụp ảnh và đăng tải lên mạng. Không phải khoảnh khắc nào cũng nên chia sẻ công khai."
+  },
+  {
+    "id": 19,
+    "text": "Không phải người nói chuyện với bạn nhiều nhất là người quan trọng nhất, mà là người vẫn ở đó dù thời gian đã khiến hai người ít gặp nhau hơn."
+  },
+  {
+    "id": 20,
+    "text": "Đừng quá tập trung vào điện thoại khi đang di chuyển. Hãy để ý môi trường xung quanh và những người bên cạnh bạn."
+  },
+  {
+    "id": 21,
+    "text": "Một chút tử tế hôm nay có thể trở thành một điều rất đáng nhớ trong ngày của ai đó."
+  },
+  {
+    "id": 22,
+    "text": "Bạn không cần được tất cả mọi người yêu quý. Hãy dành thời gian trở thành người mà chính bạn tự hào."
+  },
+  {
+    "id": 23,
+    "text": "Hãy học cách quan sát xung quanh trước khi đưa ra quyết định. Sự chú ý có thể giúp bạn tránh được nhiều rắc rối."
+  },
+  {
+    "id": 24,
+    "text": "Đừng mua thêm đồ chỉ vì thấy đẹp nhất thời. Trước khi mua, hãy tự hỏi liệu bạn có thật sự cần nó không."
+  },
+  {
+    "id": 25,
+    "text": "Hãy mang theo những vật dụng cần thiết khi ra ngoài vào buổi tối: điện thoại đầy pin, giấy tờ và một chút đồ dự phòng."
+  },
+  {
+    "id": 26,
+    "text": "Đừng chờ đến khi mọi thứ hoàn hảo mới bắt đầu. Đôi khi chính quá trình cố gắng mới giúp bạn trở nên tốt hơn."
+  },
+  {
+    "id": 27,
+    "text": "Hãy nhớ rằng bạn không cần phải mạnh mẽ mọi lúc. Có những lúc nghỉ ngơi cũng là một cách để tiếp tục."
+  },
+  {
+    "id": 28,
+    "text": "Đừng vội kể hết mọi điều về mình cho bất kỳ ai. Sự tin tưởng cần thời gian để xây dựng, và không phải ai cũng xứng đáng biết những góc riêng trong cuộc sống của bạn."
+  },
+  {
+    "id": 29,
+    "text": "Đừng vì sợ cô đơn mà ở lại nơi khiến bạn không còn là chính mình."
+  },
+  {
+    "id": 30,
+    "text": "Một người trưởng thành không phải là người không gặp khó khăn, mà là người biết cách đối mặt với chúng."
+  },
+  {
+    "id": 31,
+    "text": "Đừng quên những ngày giỗ, hội họp của gia đình. Đôi khi những điều được truyền lại qua nhiều thế hệ chính là cách chúng ta kết nối với nguồn cội."
+  },
+  {
+    "id": 32,
+    "text": "Đừng để những chuyện đã qua lấy mất niềm vui của ngày hôm nay."
+  },
+  {
+    "id": 33,
+    "text": "Có những cơ hội chỉ đến một lần, vì vậy đừng mãi chần chừ khi bạn thật sự muốn thử."
+  },
+  {
+    "id": 34,
+    "text": "Đừng vội đi theo một con đường lạ chỉ vì nó có vẻ nhanh hơn. Đôi khi an toàn quan trọng hơn vài phút tiết kiệm."
+  },
+  {
+    "id": 35,
+    "text": "Hãy học cách tự lập, vì cuộc đời của bạn cuối cùng vẫn là hành trình do chính bạn bước đi."
+  },
+  {
+    "id": 36,
+    "text": "Đừng đánh giá một người chỉ qua lần gặp đầu tiên. Có những điều cần thời gian mới có thể hiểu."
+  },
+  {
+    "id": 37,
+    "text": "Hãy chuẩn bị quần áo phù hợp cho những ngày quan trọng. Sự chuẩn bị nhỏ có thể giúp bạn tự tin hơn rất nhiều."
+  },
+  {
+    "id": 38,
+    "text": "Hãy lưu sẵn những số điện thoại cần thiết trong máy. Chuẩn bị trước sẽ giúp bạn bình tĩnh hơn khi có tình huống bất ngờ."
+  },
+  {
+    "id": 39,
+    "text": "Đôi khi điều can đảm nhất không phải là nói ra tất cả, mà là biết điều gì nên nói và điều gì nên giữ lại."
+  },
+  {
+    "id": 40,
+    "text": "Hãy nhớ rằng mục tiêu của một cuộc trò chuyện không phải là chiến thắng, mà là cùng nhau tìm ra cách giải quyết."
+  },
+  {
+    "id": 41,
+    "text": "Có những điều một cuộc gọi hay một lần gặp mặt có thể nói rõ hơn rất nhiều dòng tin nhắn."
+  },
+  {
+    "id": 42,
+    "text": "Hãy đầu tư vào bản thân bằng việc học hỏi mỗi ngày. Kiến thức và kỹ năng chính là những cánh cửa mở ra nhiều cơ hội trong tương lai."
+  },
+  {
+    "id": 43,
+    "text": "Mang theo một vài vật dụng dự phòng khi ra ngoài như khăn giấy, nước rửa tay hoặc những món đồ bạn thường cần."
+  },
+  {
+    "id": 44,
+    "text": "Đừng để nỗi sợ thất bại khiến bạn bỏ lỡ những điều có thể thay đổi cuộc đời mình."
+  },
+  {
+    "id": 45,
+    "text": "Có những người đến để đồng hành, cũng có những người đến để dạy bạn một điều gì đó. Dù có thế nào, hãy biết ơn những cuộc gặp ấy."
+  },
+  {
+    "id": 46,
+    "text": "Đừng xem nhẹ những cơn đau hay sự mệt mỏi kéo dài. Quan tâm đến sức khỏe cũng là một cách yêu thương chính mình."
+  },
+  {
+    "id": 47,
+    "text": "Đừng để kỳ vọng của người khác quyết định con đường bạn muốn đi."
+  },
+  {
+    "id": 48,
+    "text": "Hãy dùng lời nói để nâng đỡ người khác, thay vì làm họ tổn thương. Bạn có thể không thay đổi được cuộc đời họ, nhưng biết đâu sẽ làm ngày hôm đó của họ tốt đẹp hơn."
+  },
+  {
+    "id": 49,
+    "text": "Người không ngừng học hỏi sẽ luôn nhìn thấy nhiều cơ hội hơn."
+  },
+  {
+    "id": 50,
+    "text": "Đừng tiếc thời gian bên những người bạn yêu thương, vì có những khoảnh khắc không thể quay lại lần thứ hai."
+  },
+  {
+    "id": 51,
+    "text": "Nên kiểm tra đồ dùng trước những chuyến đi: giấy tờ, thuốc cần thiết, quần áo và những vật quan trọng."
+  },
+  {
+    "id": 52,
+    "text": "Đừng quá khắt khe với bản thân. Bạn sẽ tiến bộ nhanh hơn khi học cách động viên mình, thay vì chỉ biết tự trách bản thân."
+  },
+  {
+    "id": 53,
+    "text": "Đừng để một sai lầm khiến bạn quên mất mình đã từng cố gắng nhiều như thế nào."
+  },
+  {
+    "id": 54,
+    "text": "Hãy học cách buông bỏ những điều không còn phù hợp, để dành chỗ cho những điều tốt đẹp hơn bước vào."
+  },
+  {
+    "id": 55,
+    "text": "Đừng chạy theo cuộc sống của người khác đến mức quên mất mình đang có những điều đáng quý riêng."
+  },
+  {
+    "id": 56,
+    "text": "Có những chuyện hôm nay khiến bạn buồn, nhưng một ngày nào đó bạn sẽ nhìn lại và thấy mình đã mạnh mẽ hơn rất nhiều."
+  },
+  {
+    "id": 57,
+    "text": "Đừng mang quá nhiều năng lượng tiêu cực vào nơi bạn nghỉ ngơi. Hãy để căn phòng là nơi giúp bạn hồi phục."
+  },
+  {
+    "id": 58,
+    "text": "Đừng chỉ tìm cách nổi bật trong tập thể. Một người giỏi không chỉ biết làm tốt việc của mình, mà còn biết giúp những người xung quanh cùng phát triển."
+  },
+  {
+    "id": 59,
+    "text": "Đừng chờ đến khi hết mới mua bổ sung. Kiểm tra lại những vật dụng thiết yếu thường xuyên sẽ giúp cuộc sống thuận tiện hơn."
+  },
+  {
+    "id": 60,
+    "text": "Nếu có những món đồ đã lâu không dùng đến, hãy cân nhắc cho đi. Có thể chúng không còn cần với bạn, nhưng lại hữu ích với một người khác."
+  },
+  {
+    "id": 61,
+    "text": "Đừng đánh đổi sự bình yên của mình chỉ để giữ một nơi không còn trân trọng bạn."
+  },
+  {
+    "id": 62,
+    "text": "Đừng quên nghỉ ngơi. Một chiếc điện thoại cũng cần sạc pin, và bạn cũng vậy."
+  },
+  {
+    "id": 63,
+    "text": "Đừng để vài lời đánh giá của người khác quyết định cách bạn nhìn nhận bản thân."
+  },
+  {
+    "id": 64,
+    "text": "Không nên thức quá khuya: hãy dọn phòng, tắt thiết bị điện tử và dành vài phút thư giãn trước khi ngủ."
+  },
+  {
+    "id": 65,
+    "text": "Chậm hơn không có nghĩa là thất bại."
+  },
+  {
+    "id": 66,
+    "text": "Hãy học cách tận hưởng những khoảng thời gian chỉ có một mình. Hạnh phúc không nhất thiết phải đến từ người khác."
+  },
+  {
+    "id": 67,
+    "text": "Nên dành thời gian vệ sinh những vật dụng bạn sử dụng hằng ngày như bình nước, điện thoại, bàn chải hoặc khăn cá nhân."
+  },
+  {
+    "id": 68,
+    "text": "Hãy tránh nói xấu người khác khi họ không có mặt. Cách bạn nói về người khác cũng thể hiện con người bạn."
+  },
+  {
+    "id": 69,
+    "text": "Đừng chỉ mong người khác hiểu mình, hãy học cách lắng nghe và thấu hiểu người khác trước."
+  },
+  {
+    "id": 70,
+    "text": "Đừng hứa những điều mà bạn không chắc mình sẽ làm được."
+  },
+  {
+    "id": 71,
+    "text": "Hãy học cách thích nghi với hoàn cảnh thay vì chỉ mong mọi thứ luôn diễn ra theo ý mình."
+  },
+  {
+    "id": 72,
+    "text": "Đừng quên nói lời cảm ơn với những người phục vụ bạn mỗi ngày, dù đó là nhân viên, cô chú lao công hay bác bảo vệ."
+  },
+  {
+    "id": 73,
+    "text": "Đừng quên chia sẻ lịch trình hoặc địa điểm của mình với người thân khi đi xa, đặc biệt là những nơi bạn chưa từng đến."
+  },
+  {
+    "id": 74,
+    "text": "Đừng vì sợ ở một mình mà cố bước vào một tập thể không phù hợp. Sự gượng ép chưa bao giờ mang lại một tình bạn thật sự."
+  },
+  {
+    "id": 75,
+    "text": "Biết nói không với những điều khiến bạn mệt mỏi cũng là một cách yêu thương và bảo vệ chính mình."
+  },
+  {
+    "id": 76,
+    "text": "Nếu đã hứa với một em nhỏ, hãy cố gắng giữ lời. Có những lời hứa người lớn quên rất nhanh, nhưng trẻ em thì nhớ rất lâu."
+  },
+  {
+    "id": 77,
+    "text": "Hãy trân trọng những người bảo vệ bạn khi bạn không có mặt ở đó."
+  },
+  {
+    "id": 78,
+    "text": "Bắt đầu lại không phải là thất bại. Đó là lựa chọn của những người đủ dũng cảm để thay đổi cuộc đời mình."
+  },
+  {
+    "id": 79,
+    "text": "Tha thứ không phải vì người khác xứng đáng, mà vì bạn xứng đáng được bình yên."
+  },
+  {
+    "id": 80,
+    "text": "Đừng quên lưu lại những tài liệu, hình ảnh và kỷ niệm quan trọng. Một chút cẩn thận hôm nay có thể giúp bạn tránh nhiều tiếc nuối sau này."
+  },
+  {
+    "id": 81,
+    "text": "Hãy nhớ rằng một vài người không thích bạn không có nghĩa là bạn không đáng được yêu quý."
+  },
+  {
+    "id": 82,
+    "text": "Đừng đi một mình ở những nơi vắng vẻ vào ban đêm nếu không thật sự cần thiết"
+  },
+  {
+    "id": 83,
+    "text": "Hãy bước ra khỏi vùng quen thuộc. Một nơi mới, một trải nghiệm mới có thể mở ra một góc nhìn mới về cuộc sống."
+  },
+  {
+    "id": 84,
+    "text": "Đừng đợi đến khi khát mới uống nước. Cơ thể bạn cần được bổ sung nước đều đặn, nhất là trong những ngày nắng nóng."
+  },
+  {
+    "id": 85,
+    "text": "Có những người chỉ có thể đồng hành cùng bạn một đoạn đường. Hãy cảm ơn những kỷ niệm/ bài học họ đã mang đến và tiếp tục bước về phía trước."
+  },
+  {
+    "id": 86,
+    "text": "Nên chú ý lời ăn tiếng nói, tôn trọng cả bí mật của người khác và của chính mình."
+  },
+  {
+    "id": 87,
+    "text": "Hôm nay hãy tự thưởng cho mình một ly nước yêu thích. Bạn không cần chờ một dịp đặc biệt mới được vui."
+  },
+  {
+    "id": 88,
+    "text": "Hãy hoàn thành việc của hôm nay trước khi nghĩ đến ngày mai. Công việc dồn lại sẽ khiến bạn mệt mỏi hơn rất nhiều."
+  },
+  {
+    "id": 89,
+    "text": "Đừng vội kết luận khi chưa có đủ thông tin. Nhìn sự việc từ nhiều góc độ sẽ giúp bạn đưa ra quyết định đúng đắn hơn."
+  },
+  {
+    "id": 90,
+    "text": "Hãy trân trọng những người góp ý vì muốn bạn tốt hơn, nhưng cũng đừng quên dùng chính suy nghĩ của mình để chọn điều phù hợp."
+  },
+  {
+    "id": 91,
+    "text": "Nếu hôm nay bạn nhớ đến một người, hãy nhắn cho họ một tin. Đừng đợi đến khi quá muộn mới nhận ra mình đã lâu không hỏi thăm."
+  },
+  {
+    "id": 92,
+    "text": "Một người phù hợp sẽ không khiến bạn phải liên tục chứng minh giá trị của mình."
+  },
+  {
+    "id": 93,
+    "text": "Đừng để sự tò mò khiến bạn bước vào những nơi hoặc tình huống có thể gây nguy hiểm."
+  },
+  {
+    "id": 94,
+    "text": "Hãy học nấu một vài món ăn. Dù ở đâu hay chỉ có một mình, bạn vẫn có thể tự chăm sóc bản thân."
+  },
+  {
+    "id": 95,
+    "text": "Nếu chưa thể trả lời ngay, hãy nhắn cho họ biết một tiếng. Người thật lòng với bạn sẽ hiểu cho sự bận rộn của bạn, miễn là họ không bị bỏ lại trong sự im lặng."
+  },
+  {
+    "id": 96,
+    "text": "Hãy dành một chút thời gian sắp xếp lại những món đồ cũ. Có thể bạn sẽ tìm thấy những điều mình từng lãng quên."
+  },
+  {
+    "id": 97,
+    "text": "Hãy đọc thêm một cuốn sách. Có thể bạn sẽ tìm thấy câu trả lời cho điều mình đang băn khoăn."
+  },
+  {
+    "id": 98,
+    "text": "Đừng giữ mãi những lời muốn nói với người bạn yêu thương. Có những cơ hội nếu bỏ lỡ sẽ không quay lại."
+  },
+  {
+    "id": 99,
+    "text": "Đừng để một lần vấp ngã khiến bạn quên mất mình vẫn còn rất nhiều cơ hội để đứng dậy."
+  },
+  {
+    "id": 100,
+    "text": "Nếu có dịp, hãy dừng lại ngắm một hàng cây hay một bông hoa ven đường. Cuộc sống không chỉ có những nơi để đến, mà còn có những điều đáng để ngắm nhìn."
+  },
+  {
+    "id": 101,
+    "text": "Đôi khi chia tay không phải vì hết trân trọng, mà vì mỗi người cần một con đường phù hợp hơn."
+  },
+  {
+    "id": 102,
+    "text": "Khi lớn lên, bạn có nhiều điều để theo đuổi, nhưng đừng quên dành một phần thời gian cho những người đã dành cả cuộc đời vì bạn."
+  },
+  {
+    "id": 103,
+    "text": "Đừng để nỗi sợ thất bại khiến bạn bỏ lỡ những cơ hội có thể thay đổi cuộc đời mình."
+  },
+  {
+    "id": 104,
+    "text": "Hãy nhớ rằng nghỉ ngơi không phải là từ bỏ. Đôi khi dừng lại một chút là để đi xa hơn."
+  },
+  {
+    "id": 105,
+    "text": "Đừng chỉ nhìn vào những gì bạn chưa có. Hãy biết ơn cả những điều nhỏ bé đang hiện diện trong cuộc sống của bạn."
+  },
+  {
+    "id": 106,
+    "text": "Một người thật sự yêu thương bạn sẽ không chỉ xuất hiện trong những ngày vui, mà còn ở bên khi bạn gặp khó khăn."
+  },
+  {
+    "id": 107,
+    "text": "Hãy lưu lại những bức ảnh, tấm vé, lá thư hoặc món quà có ý nghĩa với bạn. Sau này, chúng sẽ giúp bạn nhớ về những khoảnh khắc đã từng rất quý giá."
+  },
+  {
+    "id": 108,
+    "text": "Đừng giữ mãi sự tức giận trong lòng. Có những chuyện buông xuống không phải vì người khác xứng đáng, mà vì bạn xứng đáng được bình yên."
+  },
+  {
+    "id": 109,
+    "text": "Hãy dành thời gian học cách hiểu chính mình. Bạn không thể xây dựng một cuộc đời phù hợp nếu không biết mình thật sự muốn gì."
+  },
+  {
+    "id": 110,
+    "text": "Đừng xem thường những bước tiến nhỏ. Một chút cố gắng mỗi ngày cũng có thể tạo nên những thay đổi lớn theo thời gian."
+  },
+  {
+    "id": 111,
+    "text": "Chăm chút vẻ ngoài giúp bạn tự tin hơn, nhưng chính tâm hồn và tri thức mới tạo nên giá trị lâu dài."
+  },
+  {
+    "id": 112,
+    "text": "Bạn không cần ai đó công nhận để trở nên có giá trị. Hãy tin vào hành trình của chính mình."
+  },
+  {
+    "id": 113,
+    "text": "Đừng để sự bận rộn khiến bạn quên mất việc hỏi thăm những người mình yêu thương."
+  },
+  {
+    "id": 114,
+    "text": "Bạn không thể thay đổi mọi lựa chọn trong quá khứ, nhưng có thể trưởng thành từ chúng."
+  },
+  {
+    "id": 115,
+    "text": "Hãy đủ dũng cảm để rời khỏi những điều khiến bạn không còn hạnh phúc, vì một hành trình mới đang chờ phía trước."
+  },
+  {
+    "id": 116,
+    "text": "Đừng để vài lời nói tiêu cực khiến bạn quên mất tất cả những điều tốt đẹp bạn đã làm được."
+  },
+  {
+    "id": 117,
+    "text": "Hãy dành thời gian ngoài trời nhiều hơn. Một chút ánh nắng và không khí trong lành cũng có thể chữa lành tâm trạng."
+  },
+  {
+    "id": 118,
+    "text": "Hãy dành thời gian tô thêm màu sắc cho cuộc sống của mình, thay vì chỉ ngồi nhìn cuộc sống của người khác đẹp hơn."
+  },
+  {
+    "id": 119,
+    "text": "Hôm nay, hãy thử hợp tác cùng người khác. Đôi khi sức mạnh của tập thể sẽ đưa bạn đi xa hơn sự cố gắng một mình."
+  },
+  {
+    "id": 120,
+    "text": "Đừng để những điều của hôm qua giữ chân bạn. Hôm nay là cơ hội để thay đổi và bắt đầu lại."
+  },
+  {
+    "id": 121,
+    "text": "Dành một chút thời gian cho gia đình hôm nay, vì sự hiện diện của bạn có thể là món quà quý giá với người thân."
+  },
+  {
+    "id": 122,
+    "text": "Không biết thì hãy hỏi ngay. Một câu hỏi đúng lúc có thể giúp bạn tránh được nhiều sai lầm trong tương lai."
+  },
+  {
+    "id": 123,
+    "text": "Hôm nay hãy chú ý khi di chuyển, đặc biệt là hướng Đông và những điều liên quan đến màu đỏ. Cẩn thận một chút để mọi việc được bình an."
+  },
+  {
+    "id": 124,
+    "text": "Đừng chỉ tìm một công việc giúp bạn kiếm tiền, hãy tìm một công việc giúp bạn học hỏi và phát triển."
+  },
+  {
+    "id": 125,
+    "text": "Đừng quên xem dự báo thời tiết trước những chuyến đi xa để có sự chuẩn bị tốt hơn."
+  },
+  {
+    "id": 126,
+    "text": "Đừng quá tin tưởng vào lời hứa của người lạ, đặc biệt là những điều nghe có vẻ quá dễ dàng hoặc hấp dẫn."
+  },
+  {
+    "id": 127,
+    "text": "Mỗi người đều có một màu sắc riêng. Đừng cố trở thành bản sao của ai đó, hãy tìm cách tỏa sáng theo cách của chính mình."
+  },
+  {
+    "id": 128,
+    "text": "Một cú nhấp chuột thiếu cẩn thận có thể mang đến nhiều phiền phức, chú ý đường link lạ hay những tin nhắn đáng ngờ."
+  }
+]
