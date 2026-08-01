@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Câu chuyện của Mây | Tiệm nhỏ của Mây</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.story-page{
+    padding:140px 8% 80px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.story-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.story-header h1{
+    font-size:52px;
+    color:var(--mint);
+    margin-bottom:18px;
+}
+
+.story-header p{
+    max-width:720px;
+    margin:auto;
+    line-height:2;
+    color:#666;
+    font-size:17px;
+}
+
+.search-box{
+    max-width:600px;
+    margin:45px auto 0;
+}
+
+.search-box input{
+    width:100%;
+    padding:16px 22px;
+    border:none;
+    border-radius:50px;
+    background:#fff;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+    font-size:16px;
+    outline:none;
+}
+
+.story-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.story-card{
+    background:#fff;
+    border-radius:35px;
+    padding:35px;
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+    transition:.35s;
+    display:flex;
+    flex-direction:column;
+}
+
+.story-card:hover{
+    transform:translateY(-8px);
+}
+
+.story-number{
+    color:var(--pink);
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:2px;
+    margin-bottom:15px;
+}
+
+.story-title{
+    color:var(--mint);
+    font-size:28px;
+    margin-bottom:18px;
+}
+
+.story-preview{
+    color:#555;
+    line-height:1.9;
+    text-align:justify;
+    flex:1;
+}
+
+.story-btn{
+    margin-top:30px;
+    text-align:center;
+}
+
+.story-btn a{
+    display:inline-block;
+    padding:13px 34px;
+    background:var(--pink);
+    color:#fff;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.story-btn a:hover{
+    transform:translateY(-4px);
+}
+
+@media(max-width:768px){
+
+.story-header h1{
+font-size:40px;
+}
+
+.story-title{
+font-size:24px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+☁️ Tiệm nhỏ của Mây
+
+</div>
+
+<ul class="menu">
+
+<li><a href="index.html">Trang chủ</a></li>
+<li><a href="about.html">Về Mây</a></li>
+<li><a href="stories.html">Câu chuyện của Mây</a></li>
+<li><a href="study.html">Góc học tập</a></li>
+<li><a href="books.html">Kệ sách</a></li>
+<li><a href="playlist.html">Playlist</a></li>
+<li><a href="letter.html">Góc thư</a></li>
+<li><a href="shop.html">Chiếc giỏ nhỏ</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="story-page">
+
+<div class="story-header">
+
+<h1>☁️ Câu chuyện của Mây ☁️</h1>
+
+<p>
+
+Có những câu chuyện được viết để lưu giữ một khoảng thời gian,
+một cảm xúc hay một bài học mà Mây đã đi qua.
+Nếu một ngày nào đó bạn nhìn thấy chính mình trong những dòng chữ ấy,
+hy vọng bạn sẽ mỉm cười và dịu dàng hơn với bản thân.
+
+</p>
+
+<div class="search-box">
+
+<input
+type="text"
+id="searchStory"
+placeholder="🔎 Tìm bài viết..."
+>
+
+</div>
+
+</div>
+
+<div class="story-grid" id="storyGrid">
+
+<!-- #0003 -->
+
+<div class="story-card">
+
+<div class="story-number">
+
+#0003
+
+</div>
+
+<h2 class="story-title">
+
+Có những ngày Mây chỉ ngồi lặng im
+
+</h2>
+
+<p class="story-preview">
+
+Có những ngày Mây từng nghĩ mình luôn phải chạy theo người khác để được yêu quý.
+Cho đến một lúc, Mây nhận ra rằng ở một mình không đáng sợ như mình từng nghĩ.
+Đó cũng là lúc Mây bắt đầu học cách yêu thương bản thân và xây dựng thế giới nhỏ của riêng mình...
+
+</p>
+
+<div class="story-btn">
+
+<a href="stories/0003.html">
+
+Đọc tiếp
+
+</a>
+
+</div>
+
+</div>
+
+  <!-- #0002 -->
+
+<div class="story-card">
+
+<div class="story-number">
+
+#0002
+
+</div>
+
+<h2 class="story-title">
+
+Nơi mà em từng không muốn đến
+
+</h2>
+
+<p class="story-preview">
+
+Ngày trước, Mây từng nghĩ mình sẽ không bao giờ thích nơi ấy.
+Nhưng rồi thời gian trôi qua, chính nơi đó lại mang đến những con người,
+những kỷ niệm và những bài học khiến Mây trưởng thành hơn từng ngày...
+
+</p>
+
+<div class="story-btn">
+
+<a href="stories/0002.html">
+
+Đọc tiếp
+
+</a>
+
+</div>
+
+</div>
+
+
+
+<!-- #0001 -->
+
+<div class="story-card">
+
+<div class="story-number">
+
+#0001
+
+</div>
+
+<h2 class="story-title">
+
+Cùng bạn đến với câu chuyện đầu tiên của Mây
+
+</h2>
+
+<p class="story-preview">
+
+Tiệm nhỏ của Mây được tạo nên từ một mong muốn rất giản dị:
+có một nơi để lưu giữ những câu chuyện, những điều tích cực,
+những lá thư và cả những ngày bình yên mà Mây muốn chia sẻ với mọi người...
+
+</p>
+
+<div class="story-btn">
+
+<a href="stories/0001.html">
+
+Đọc tiếp
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+
+<h3>☁️ Tiệm nhỏ của Mây</h3>
+
+<p>
+
+Một góc nhỏ để đọc, học tập và lưu giữ
+những điều xinh đẹp trong cuộc sống.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Khám phá</h3>
+
+<p>
+
+<a href="index.html">Trang chủ</a><br>
+<a href="stories.html">Câu chuyện của Mây</a><br>
+<a href="study.html">Góc học tập</a><br>
+<a href="books.html">Kệ sách</a>
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Kết nối</h3>
+
+<p>
+
+<a href="letter.html">Góc thư</a><br>
+<a href="playlist.html">Playlist</a><br>
+<a href="shop.html">Chiếc giỏ nhỏ</a>
+
+</p>
+
+</div>
+
+</div>
+
+<div class="copy">
+
+© 2026 Tiệm nhỏ của Mây ☁️
+
+</div>
+
+</footer>
+
+<script>
+
+const searchInput=document.getElementById("searchStory");
+
+searchInput.addEventListener("keyup",function(){
+
+const value=this.value.toLowerCase();
+
+const cards=document.querySelectorAll(".story-card");
+
+cards.forEach(card=>{
+
+const text=card.innerText.toLowerCase();
+
+if(text.includes(value)){
+
+card.style.display="flex";
+
+}else{
+
+card.style.display="none";
+
+}
+
+});
+
+});
+
+</script>
+
+</body>
+
+</html>
